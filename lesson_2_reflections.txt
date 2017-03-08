@@ -18,4 +18,15 @@ git diff --staged - compares staging area to most recent commit
 
 
 How can you use the staging area to make sure you have one commit per logical change?
+
 By using git diff with the staging area you can see what files have been changed. If a file has a change that doesn't reflect the logical change, it doesn't need to be included in the commit.
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If I want to try something that I'm not sure about and I want to make sure I keep the code I have, I can create a branch for the experimental code. This would give me a history for that experiment that wouldn't mess up the original code.
+
+That way, if I decide not to keep the new experimental code, I can go back to the code I had that was good.
+
+Branches can keep the code for multiple variations separate and keep from having to figure out which version was the one I need to go back to for the original code.
