@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A folder is set up that contains the information about commits and files. No commits are made because you have to save the commits to create them

@@ -1,0 +1,69 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+By seeing only the lines that had changed, it was easier to tell where the mistake had been made. 
+
+Having to scroll through thousands of lines to find one change is a tedious process and can keep you from seeing the difference you need to find.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can go back to previous versions and find the one without a bug to compare to the one you have that has the bug you're trying to fix.
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros are that an auto save a version when only one thing has been changed would result in too many versions to have to compare.
+
+The cons are that you may not save new versions often enough.
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The multiple file commit allows you to see what changes have been made across more than one file. When programming, a lot of times changes can be made to more than one file at a time.
+
+Most of the time, a change to a  Google doc doesn't affect any other docs, or require information form another doc.
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log lets you see all the revisions that were committed for the files. git diff lets you see where lines were added/deleted so you can see what changes were made between the two versions.
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+I would know that I could go back and find where the change that broke something by going back through older versions until I found the one that didn't have the change that broke it.
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+We plan on using Git for different projects we work on as a group.
+
+
+
+Git command review
+Compare two commits, printing each line that is present in one commit but not the other.
+
+git diff will do this. It takes two arguments - the two commit ids to compare. 
+
+
+Make a copy of an entire Git repository, including the history, onto your own computer.
+
+git clone will do this. It takes one argument - the url of the repository to copy. 
+
+
+Temporarily reset all files in a directory to their state at the time of a specific commit.
+
+git checkout will do this. It takes one argument - the commit ID to restore. 
+
+
+Show the commits made in this repository, starting with the most recent.
+
+git log will do this. It doesn't take any arguments.
+
+
