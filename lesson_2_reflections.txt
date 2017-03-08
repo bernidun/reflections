@@ -30,3 +30,9 @@ If I want to try something that I'm not sure about and I want to make sure I kee
 That way, if I decide not to keep the new experimental code, I can go back to the code I had that was good.
 
 Branches can keep the code for multiple variations separate and keep from having to figure out which version was the one I need to go back to for the original code.
+
+
+
+How do the diagrams help you visualize the branch structure?
+
+They make it easier to see what changes to a file affect which parent file. I can also see where branches began, so I can tell which master file would have the code that the last file in the branch relates to.
