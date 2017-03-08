@@ -1,3 +1,10 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A folder is set up that contains the information about commits and files. No commits are made because you have to save the commits to create them
+A folder is set up that contains the information about commits and files. No commits are made because you have to save the commits to create them.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area keeps track of which files you want to track changes to. The working directory is where the files are located, and the repository keeps a history of changes made to the files.
+
+
