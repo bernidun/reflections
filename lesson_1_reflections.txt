@@ -55,11 +55,16 @@ git diff will do this. It takes two arguments - the two commit ids to compare.
 Make a copy of an entire Git repository, including the history, onto your own computer.
 
 git clone will do this. It takes one argument - the url of the repository to copy. 
+ex. 
+git clone ssh://john@example.com/path/to/my-project.git 
+cd my-project
+# Start working on the project
 
 
 Temporarily reset all files in a directory to their state at the time of a specific commit.
 
-git checkout will do this. It takes one argument - the commit ID to restore. 
+git checkout will do this. It takes one argument - the commit ID to restore.
+-- git checkout master returns to the last commit made 
 
 
 Show the commits made in this repository, starting with the most recent.
