@@ -32,3 +32,12 @@ We've been using Cloud9 for our projects. We all have access to the same files, 
 
 The problem is that when two people are working on a file at the same time, one person may make a change and save it. Another person working on that same file may save it at about the same time, and the resulting file may not get updated correctly. Git would allow changes to be made locally, and we could see what changes someone else made easier.
 
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You want to make changes in a separate branch when the changes involved are to a file that already exists in the master branch and may incorporate some kind of deviation or change that needs to be approved by others on the project.
+
+The benefit to making changes in the master are that it's easier to merge the files involved. The benefits to making changes to a branch are that the master isn't compromised by code that may not be correct or may not be desired in the master.
+
+
