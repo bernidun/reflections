@@ -24,3 +24,11 @@ What is the benefit of having a copy of the last known state of the remote store
 
 It makes merging a new version created locally with the remote version easier. By having the most recent commit of the remote version on my hard drive, when I make a change to a file will affect the most recent version and pushing that to the remote will have fewer conflicts.
 
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+We've been using Cloud9 for our projects. We all have access to the same files, and can make changes that others can see immediately.
+
+The problem is that when two people are working on a file at the same time, one person may make a change and save it. Another person working on that same file may save it at about the same time, and the resulting file may not get updated correctly. Git would allow changes to be made locally, and we could see what changes someone else made easier.
+
