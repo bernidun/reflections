@@ -18,3 +18,9 @@ A clone is made locally on my own computer from another source. It is a copy of 
 
 A branch is a clone that is made from a specific commit and given a new name. This is used when I want to try something out that I don't want to affect the last commit that was made to the main project.
 
+
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It makes merging a new version created locally with the remote version easier. By having the most recent commit of the remote version on my hard drive, when I make a change to a file will affect the most recent version and pushing that to the remote will have fewer conflicts.
+
