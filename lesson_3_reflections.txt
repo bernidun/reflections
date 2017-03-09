@@ -8,3 +8,13 @@ Why might you want to always pull changes manually rather than having Git automa
 
 If someone else made a change and pushed it, that change might mess up the code that I've been working on. If I pull them manually, then I can see what changes were made (if any) and decide which changes I want to keep.
 
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A fork is a clone that is made on GitHub. Once made, I can access it only on GitHub unless I clone it to my computer using a pull request. This is used when there are multiple contributors to a project.
+
+A clone is made locally on my own computer from another source. It is a copy of the original files and changes made to my copy don't affect the source that the clone was made from. This is used when I want to make changes to a project that won't be used by another project or anyone else.
+
+A branch is a clone that is made from a specific commit and given a new name. This is used when I want to try something out that I don't want to affect the last commit that was made to the main project.
+
