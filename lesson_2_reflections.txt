@@ -45,3 +45,12 @@ The result is a combination that contains lines from both branches in the order 
 
 The diagram helps to show that both branches are now "at one" with each other. The result of the merge is shown as one commit.
 
+git merge branch1 branch2
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging makes it easier to merge two files that have changes that are easy to see. Git can spot those changes easier than a person could find them by checking line-by-line.
+
+Git has a problem knowing which lines to keep when two people have modified the same file in the same area. This is when the people involved in the differences between the files need to look and see what changes need to be kept.
